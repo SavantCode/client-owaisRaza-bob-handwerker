@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaCodepen, FaSearch, FaBars, FaTimes } from 'react-icons/fa';
 
+import logo from '../assets/logo.png'; // Ensure you have a logo image in the specified path
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -44,9 +46,14 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-4 md:px-0">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <FaCodepen className="text-3xl text-cyan-400" />
-          <span className="text-2xl font-bold tracking-wide">BOB</span>
-        </div>
+  <img
+    src={logo}
+    alt="BOB Logo"
+    className="w-10 h-10 object-contain"
+  />
+  <span className="text-2xl font-bold tracking-wide text-white">BOB</span>
+</div>
+
 
         {/* Navigation Links (Desktop) */}
         <div className="hidden md:flex items-center space-x-6 text-[16px] font-medium">
