@@ -55,7 +55,7 @@ const CategoriesSection = () => {
   ];
 
   return (
-    <section className="bg-white py-10 sm:py-12 md:py-16 font-sans text-gray-800">
+    <section className="bg-white py-10 mt-12 sm:py-12 md:py-16 font-sans text-gray-800">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-10">
