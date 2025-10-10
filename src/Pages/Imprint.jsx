@@ -2,7 +2,7 @@ import React from 'react';
 
 const ImprintPage = () => {
   return (
-    <div className="bg-white font-sans text-gray-800">
+    <div className="bg-white font-sans text-gray-800 mt-5">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <header className="mb-10">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900">

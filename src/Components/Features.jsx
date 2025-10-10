@@ -4,7 +4,7 @@ import { FaCheckCircle, FaHandshake, FaWrench, FaCogs } from 'react-icons/fa';
 const Features = () => {
     const infoCards = [
         {
-            icon: <FaCheckCircle className="text-3xl text-[#0a2540]" />,  // decreased from 4xl to 3xl
+            icon: <FaCheckCircle className="text-3xl text-[#0a2540]" />,
             title: "Kostenlos für Auftraggeber",
             description: "Du zahlst nichts – die Anbieter bewerben sich bei dir."
         },
@@ -38,7 +38,7 @@ const Features = () => {
                     {infoCards.map((card, index) => (
                         <div
                             key={index}
-                            className="bg-gray-100 p-8 rounded-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300"
+                            className="bg-gray-100 p-8 rounded-lg flex flex-col items-center"
                         >
                             <div className="mb-4">{card.icon}</div>
                             <h3 className="text-lg font-bold text-[#0a2540] mb-2">{card.title}</h3>

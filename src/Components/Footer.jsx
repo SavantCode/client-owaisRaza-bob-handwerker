@@ -3,7 +3,10 @@ import { FiMapPin, FiPhone, FiMail } from 'react-icons/fi';
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-gray-300 font-sans">
+    <footer className="bg-slate-900 text-gray-300 font-sans pb-12 md:pb-12">
+      {/* 👆 Added pb-24 for mobile (to avoid overlap with bottom navbar), 
+          and md:pb-12 for normal desktop spacing */}
+
       <div className="max-w-7xl mx-auto px-6 py-12">
         
         {/* Main footer content grid */}
@@ -17,21 +20,6 @@ const Footer = () => {
             </p>
           </div>
           
-          {/* Column 2: Navigation */}
-          <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Navigation</h3>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Anbieter</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Kategorien</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">BOB Pro</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Aufträge</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Preise</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Kontakt</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Impressum</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Datenschutz</a></li>
-            </ul>
-          </div>
-
           {/* Column 3: Kontakt */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Kontakt</h3>

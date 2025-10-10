@@ -3,8 +3,8 @@ import { FiCheckCircle } from 'react-icons/fi';
 
 const FindJob = () => {
   return (
-    <section className="bg-white font-sans py-16 sm:py-20 lg:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-white font-sans  mt-4  py-16 sm:py-20 lg:py-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         
         {/* Header Section */}
         <div className="text-center max-w-4xl mx-auto">
